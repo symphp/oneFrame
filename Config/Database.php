@@ -13,8 +13,10 @@
 //define('DBNAME','test');//操作的数据库名
 
 return array(
-    'HOST'=>'localhost', //服务器地址
-    'UNAME'=>'root', //数据库账号
-    'UPASS'=>'root', //数据库密码
-    'DBNAME'=>'test' //操作的数据库名
+    'database_type' => 'mysql',
+    'database_name' => 'test',
+    'server' => 'localhost',
+    'username' => 'root',
+    'password' => 'root',
+    'charset' => 'utf8'
 );

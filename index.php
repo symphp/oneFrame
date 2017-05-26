@@ -23,6 +23,7 @@ if(DEBUG) {
     ini_set('display_errors','Off');
 }
 
+require ROOT.'/vendor/autoload.php';    //加载composer
 require CORE.'/Function.php';   //加载函数
 require CORE.'/Oneframe.php';   //加载框架核心
 
