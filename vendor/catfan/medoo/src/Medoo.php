@@ -302,10 +302,7 @@ class Medoo
 		{
 			$statement->bindValue($key, $value[ 0 ], $value[ 1 ]);
 		}
-
 		$statement->execute();
-
-		$this->statement = $statement;
 
 		return $statement;
 	}

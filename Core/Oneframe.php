@@ -71,7 +71,7 @@ class Oneframe
     {
         $controller = APP.'/Controllers/'.$class.'.php';
         //模型类文件目录
-        $model = 'app/models/'.$class.'.Model.php';
+        $model = 'app/models/'.$class.'.php';
         //核心类文件目录
         $core = 'core/'.$class.'.php';
         if(file_exists($controller)) {
