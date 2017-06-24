@@ -1,3 +1,3 @@
 # oneFrame
-这是一个php写的小框架 <br/>
+这是基于php开发的小框架 <br/>
 php >= 5.4

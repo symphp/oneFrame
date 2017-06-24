@@ -62,7 +62,6 @@ class Oneframe
         }
     }
 
-
     /**
      * 自动加载类
      */
