@@ -56,7 +56,6 @@ class Oneframe
             //解析param参数
             $parmaarr = array_values($patharr);
             $parma_count = count($parmaarr)%2 == 1?count($parmaarr)-1:count($parmaarr);
-
             for ($i = 0; $i < $parma_count; $i += 2) {
                 self::$param[$parmaarr[$i]] = $parmaarr[$i + 1];
             }
